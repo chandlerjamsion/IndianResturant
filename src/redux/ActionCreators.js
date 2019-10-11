@@ -74,9 +74,9 @@ export const commentsFailed = (errmess) => ({
     payload: errmess
 });
 
-export const addComment = (comment) => ({
+export const addComments = (comments) => ({
     type: ActionTypes.ADD_COMMENT,
-    payload: comment
+    payload: comments
 });
 
 export const postComment = (dishId, rating, author, comment) => (dispatch) => {
